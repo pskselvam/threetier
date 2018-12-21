@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: "pskselvam/synbackend3108"
+          image: "pskselvam/mysynbackend2112"
           ports:
             - name: http
               containerPort: 80
@@ -79,7 +79,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "pskselvam/synfrontend3108"
+        image: "pskselvam/mysynfrontend211208"
         ports:
           - name: http
             containerPort: 80
